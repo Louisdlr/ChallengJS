@@ -25,15 +25,15 @@
         </ul>
     </nav>
     <header>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat facilis, a illum nihil sint tempora. Ipsa, porro accusamus placeat cupiditate amet velit dolor vitae animi ea numquam sapiente qui cumque?</p>
+        <p id="first-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat facilis, a illum nihil sint tempora. Ipsa, porro accusamus placeat cupiditate amet velit dolor vitae animi ea numquam sapiente qui cumque?</p>
     </header>
     <h1 id="first-title">
         welcome ofgirnzrno znfpoirzgn
     </h1>
-    <section class="section-for-img">
-        <img src="img/IMG_0641.jpg" alt="">
-        <img src="img/Capture_decran_2025-02-18_124227.png" alt="">
-        <img src="img/WIN_20250417_12_15_42_Pro.jpg" alt="">
+    <section class="section-for-img" onclick="changeImage()" id="image">
+        <img src="img/IMG_0641_300x300.jpg" alt="">
+        <img src="img/Capture_decran_2025-02-18_124227_300x300.png" alt="">
+        <img src="img/WIN_20250417_12_15_42_Pro_300x300.jpg" alt="">
     </section>
     <section class="section-for-mission">
         <h2>
@@ -41,6 +41,7 @@
         </h2>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum consectetur laborum harum animi, nesciunt tempore odit explicabo perspiciatis omnis eligendi repudiandae consequatur facilis nulla quidem in excepturi cupiditate dolorum voluptates?</p>
     </section>
+    <div class="about-and-contact-contneur">
     <section class="section-about">
         <h2 id="about">
             About
@@ -55,16 +56,39 @@
         <input type="text" placeholder="Your name">
         <button>Introduce youtself</button>
     </section>
-    <section>
+    </div>
+    <section id="dashboard-section">
         <h2 id="dashboard">
             Dashboard
         </h2>
-        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Consequatur optio aperiam quaerat fuga nesciunt delectus possimus? Sequi odit sed odio, fugit vero id perferendis iusto esse amet, enim iste quo.</p>
+        <div class="dashboard-cards">
+            <div class="card">
+                <h3>Weather</h3>
+                <p class="sub">Wed 17 Feb 2021 12:45</p>
+                <p>In the north of the country it’s very windy and cold. There is a chance of some rain too... </p>
+                <a href="#">Read the article</a>
+            </div>
+            <div class="card">
+                <h3>News</h3>
+                <p class="sub">Bitcoin hits new record of $50,000</p>
+                <p>The so-called cryptocurrency, which was created by an unknown inventor, has risen about 72% this year...</p>
+                <a href="#">Read the article</a>
+            </div>
+            <div class="card">
+                <h3>Horoscope</h3>
+                <p class="sub">Pisces</p>
+                <p>One of the most critical stories of 2021 gets underfoot today, Pisces. Try to tune into the messages around you...</p>
+                <a href="#">Read the article</a>
+            </div>
+        </div>
+        
     </section>
     <footer>
-       <div class="bottum-left">
-            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sapiente alias esse nulla. Omnis dicta consequuntur necessitatibus eveniet, harum dolore aliquam vitae aut quis obcaecati, culpa debitis voluptates totam minus tempore!</p>
-       </div>
+        <div class="bottom-left">
+            <p>Placeholder inc. © 2021<br>
+            01, Placeholder Street 01000 Placeholder City<br>
+            hello@carbon.com</p>
+        </div>
        <ul class="bottum-right">
         <li>
             <a href="">Mission</a>
